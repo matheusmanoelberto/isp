@@ -7,7 +7,7 @@
 }
   
 #navbar a:hover {
-    color: var(--color-green);
+    color: var(--color-red);
 }
   
 #navbar-items .navbar-nav {
@@ -42,7 +42,7 @@ main {
 
 
 .title-esqueciSenha a {
-    color: var(--color-green);
+    color: var(--color-red);
 }
 
 .separator {
@@ -164,7 +164,7 @@ main {
     font-weight: 700;
     border: 1px solid;
     border-radius: 7px;
-    border-color: var(--color-green);
+    border-color: var(--color-red);
 }
 .Se-cadastre p{
     padding-top: 20px;
@@ -198,7 +198,7 @@ main {
 }
 
 .pd-footer {
-    background: var(--color-blue);
+    background: var(--color-black);
 }
 
 .redes-sociais-div{
@@ -230,7 +230,7 @@ main {
 }
 
 .icons{
-    color: var(--color-green);
+    color: var(--color-black);
     padding-left: 10px;
 }
 

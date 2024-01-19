@@ -32,7 +32,8 @@ figure {
     --color-green: #009640;
     --color-yellow: #C2CA0A;
     --color-black: #000;
-    --color-blue: #003641;   /*azul frontão*/
+    --color-blue: #302ddb;   /*azul frontão*/
+    --color-red: #7a0404 ;
     --color-background: #F7F7F7;
 }
 
@@ -40,9 +41,9 @@ figure {
     body {
         max-width: 1320px;
         width: 100%;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-  margin-right: auto;
-  margin-left: auto;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
     }
 }

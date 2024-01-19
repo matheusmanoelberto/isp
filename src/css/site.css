@@ -1,5 +1,5 @@
 .header {
-    background: var(--color-white);
+    background: var(--color-background);
 }
   
 #navbar a {
@@ -52,7 +52,7 @@ main {
 
 .banner {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 }
 
 .text-sobre {
@@ -71,6 +71,7 @@ main {
 
     .header-logo img {
         width: 80px;
+        margin-left: 5px;
     } 
 
     #navbar-items .login{
@@ -129,10 +130,12 @@ main {
 }
 
 .quem-somos {
-    background-color: aquamarine;
-    background: url(../img/Background.png)center center no-repeat;
-    background-size: cover;    
-    color: var(--color-white);
+    background: var(--color-background);
+    color: var(--color-black);   
+}
+.quem-somos h1 {
+    font-weight: 600;
+    font-size: 3rem;
 }
 
 .befly-painel{

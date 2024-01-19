@@ -10,6 +10,7 @@
 html,
 body {
     font-family: 'Asap', sans-serif;
+    
 }
 
 ul {
@@ -32,4 +33,16 @@ figure {
     --color-yellow: #C2CA0A;
     --color-black: #000;
     --color-blue: #003641;   /*azul frontão*/
+    --color-background: #F7F7F7;
+}
+
+@media (min-width: 1200px){
+    body {
+        max-width: 1320px;
+        width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+    }
 }

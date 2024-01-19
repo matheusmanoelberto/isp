@@ -1,0 +1,237 @@
+.header {
+    background: var(--color-white);
+}
+  
+#navbar a {
+    color: var(--color-black);
+}
+  
+#navbar a:hover {
+    color: var(--color-green);
+}
+  
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+#navbar-items{
+    text-align: center;
+    z-index: 1;
+}
+
+.nav .nav-item {
+    color: var(--color-white);
+    padding-left: 20px;
+}
+
+.nav .nav-item img {
+    height: 20px;
+    opacity: 0.5;
+}
+
+.o-clube {
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+}
+
+
+
+.title-esqueciSenha a {
+    color: var(--color-green);
+}
+
+.separator {
+    border: 6px solid var(--color-yellow);
+    margin: 0px;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+}
+
+.text-sobre {
+    font-size: 24px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 991px) {
+   
+    #navbar-items{
+        text-align: justify;
+    }
+    .nav .nav-item {
+        padding-left: 0;
+    }
+
+    .header-logo img {
+        width: 80px;
+    } 
+
+    #navbar-items .login{
+        width: 72px;
+        text-align: center !important;
+    }
+
+    .aproveite-os-benefico-img{
+        max-width: inherit !important;
+    }
+
+    .footer-responsivel{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;
+                
+    }
+
+    .redes-sociais-paragrafo{
+        font-size: 80%;
+    }
+
+    .site-paragrafo{
+        font-size: 100% !important
+    }
+
+    .redes-sociais-div{
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-login {
+        display: block !important;
+        margin:0 auto;
+        height: 100vh;
+        max-width: 80%;
+
+    }
+    .main__login {
+        
+        max-width: 450px;
+    }
+
+    .main__records {
+        /* display: none; */
+        height: 100vh;
+        max-width: 450px;
+        margin-top: 16px;
+    }
+
+    .footer-responsivel .footer__logo-blube img {
+        height: 50px !important;
+    }
+
+}
+
+.quem-somos {
+    background-color: aquamarine;
+    background: url(../img/Background.png)center center no-repeat;
+    background-size: cover;    
+    color: var(--color-white);
+}
+
+.befly-painel{
+    background-color: aquamarine;
+    background: url(../img/Background.png)center center no-repeat;
+    background-size: cover;    
+    color: var(--color-white);
+    height: 89vh;
+}
+
+
+.quem-somos .Img-Befly-Conecta{
+    width: 70%;
+}
+
+
+.Se-cadastre .cadastro-passo-img{
+    width: 100px;
+}
+
+.Se-cadastre .img-clube-beneficios img{
+    width: 100%;
+}
+.Se-cadastre .Text-Cadastro{    
+    color: var(--color-black);
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: var(--color-green);
+}
+.Se-cadastre p{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.aproveite-os-benefico-img{
+    max-width: 640px;
+}
+
+.conheca {
+    background: var(--color-purple);
+    display: initial;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.main-login {
+    height: 80hv !important;
+}
+
+.google-maps {
+    /* pointer-events: none; */
+    height: 271px;
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+}
+.google-maps iframe {
+    border: none;
+    width: 100%;
+}
+
+.pd-footer {
+    background: var(--color-blue);
+}
+
+.redes-sociais-div{
+    padding-left: 100px;
+    justify-content: center;
+}
+.redes-sociais{
+    white-space: nowrap;
+}
+
+.site .site-paragrafo {
+    color: var(--color-white);
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.site strong {
+    font-weight: 700;
+}
+
+.redes-sociais .redes-sociais-paragrafo {
+    color: var(--color-white);
+    font-weight: 100;
+}
+
+.redes-sociais strong {
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.icons{
+    color: var(--color-green);
+    padding-left: 10px;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+}

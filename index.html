@@ -1,46 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
-    <!-- Icons Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Club de Benefícios</title>
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/site.js"></script>
 
-    <!-- CSS Projeto -->
-    <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="/src/css/reset.css">
-    <link rel="stylesheet" href="src/css/global.css">
-
-    <!-- Javascript Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" type="text/css" href="./src/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./src/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="./src/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/menu.css">
 </head>
-<body>
-    <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-        <div class="container py-3">
-            <a href="#" class="navbar-brand">
-                <img src="src/img/logo radical.png" width="50px" alt="ISP">
-                <span>ISP</span>
+<body>
+    <nav class="header navbar navbar-expand-md bg-primary-color" id="navbar">
+        <div class="teste container py-2">
+            <a class="header-logo navbar-brand" href="index.html">
+                <img src="src/img/logo.png" alt="logo igreja sem paredes" />
             </a>
-            <button 
-            class="navbar-toggler" 
-            type="button"
-            data-bs-toggloe="collapse"
-            data-bs-target="#navbar-items"
-            aria-controls="navbar-items"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-                <i class="bi bi bi-list"></i>
-            </button>
-            tempo video 21:48
+
+            <input class="input" type="checkbox" id="menu-hamburguer">
+
+            <label class="label" for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <div class="nav collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav mx-auto m-0 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active o-clube" aria-current="page">Home</a>
+                    </li>
+
+                    <li class="separator1">
+                        <img src="./src/img/site/separator-vertical.png" />
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#quem-somos" class="nav-link">Quem somos</a>
+                    </li>
+
+                    <li class="separator1">
+                        <img src="./src/img/site/separator-vertical.png" />
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#quem-somos" class="nav-link">Projetos</a>
+                    </li>
+
+                    <li class="separator1">
+                        <img src="./src/img/site/separator-vertical.png" />
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#quem-somos" class="nav-link">Onde estamos</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link login" href="login.html">DOE AGORA</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </nav>
+
+    <hr class="separator" />
+    <figure>
+        <img src="./src/img/banner-principal.png" alt="banner principal" class="banner">
+    </figure>
+    <hr class="separator" />
+
+    <!-- Quem Somos -->
+    <section id="quem-somos" class="quem-somos py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-sobre text-center">
+                    <img src="src/img/logo.png" alt="" width="150">
+                    <h1 class="p-5">Quem Somos</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe sint numquam facere a cumque, omn
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ipsa dolorem perspiciatis facil
+                        is consequuntur eos ab beatae aliquid optio quaerat praesentium impedit consequatur, quibusdam
+                        qu
+                        os molestiae maxime
+                        ? Quod, quaerat corporis.is vol
+                        uptatum. Molestias, odio commodi eligendi corrupti adipisci voluptatem in expedita aut
+                        , quod incidunt perspiciatis hic!Lorem</p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- <div class="col-12 text-center">
+                    <a href="login.html"><img class="Img-Befly-Conecta" src="src/img/parceiros/Befly-Conecta.png"
+                            alt="befly-Conecta"></a>
+                </div> -->
+
+                <!-- <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style=" border-radius: 10px;">
+                        <img class="card-img-top" style=" border-radius: 10px;"
+                            src="https://th.bing.com/th/id/R.1f1c73105d0f0cf268a031f0547101d4?rik=gHA8pL5PKUGGtw&riu=http%3a%2f%2fconselheirolafaiete.mg.gov.br%2fv2%2fwp-content%2fuploads%2f2019%2f11%2fplano-de-sa%c3%bade-760x450.jpg&ehk=cCJMCUgBL2Rn0Q9lAquUHszszayeTghPTl7f5d8KHN8%3d&risl=&pid=ImgRaw&r=0"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <img class="card-img-top"
+                                src="https://www.caadf.org.br/wp-content/uploads/2015/04/SabinMed_horizontal_COR.jpg"
+                                alt="Card image cap">
+                            <a href="#" class="btn btn-primary rounded-pill">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style=" border-radius: 10px;">
+                        <img class="card-img-top" style=" border-radius: 10px;"
+                            src="https://th.bing.com/th/id/R.1f1c73105d0f0cf268a031f0547101d4?rik=gHA8pL5PKUGGtw&riu=http%3a%2f%2fconselheirolafaiete.mg.gov.br%2fv2%2fwp-content%2fuploads%2f2019%2f11%2fplano-de-sa%c3%bade-760x450.jpg&ehk=cCJMCUgBL2Rn0Q9lAquUHszszayeTghPTl7f5d8KHN8%3d&risl=&pid=ImgRaw&r=0"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <img class="card-img-top"
+                                src="https://www.caadf.org.br/wp-content/uploads/2015/04/SabinMed_horizontal_COR.jpg"
+                                alt="Card image cap">
+                            <a href="#" class="btn btn-primary rounded-pill">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" style=" border-radius: 10px;">
+                        <img class="card-img-top" style=" border-radius: 10px;"
+                            src="https://th.bing.com/th/id/R.1f1c73105d0f0cf268a031f0547101d4?rik=gHA8pL5PKUGGtw&riu=http%3a%2f%2fconselheirolafaiete.mg.gov.br%2fv2%2fwp-content%2fuploads%2f2019%2f11%2fplano-de-sa%c3%bade-760x450.jpg&ehk=cCJMCUgBL2Rn0Q9lAquUHszszayeTghPTl7f5d8KHN8%3d&risl=&pid=ImgRaw&r=0"
+                            alt="Card image cap">
+                        <div class="card-body text-center">
+                            <img class="card-img-top"
+                                src="https://www.caadf.org.br/wp-content/uploads/2015/04/SabinMed_horizontal_COR.jpg"
+                                alt="Card image cap">
+                            <a href="#" class="btn btn-primary rounded-pill">Saiba mais</a>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <br><br><br>
+    <!-- SE CADASTRE -->
+    <section class="Se-cadastre">
+        <div class="container">
+            <div class="row img-clube-beneficios">
+                <div class="col-12 col-md-6 col-lg-6"> <img src="src/img/Titulo-cadastro.png" alt=""></div>
+                <div class="col-12 col-md-6 col-lg-6 d-none d-md-block"> <img src="src/img/site/Elementos 2.png" alt="">
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center ">
+                    <img class="cadastro-passo-img" src="src/img/site/1.png" alt="Primeiro passo">
+                    <p class="cadastro-passo-title">Acesse o site do clube de vantagens e clique em
+                        <strong>"Cadastro".</strong>
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <img class="cadastro-passo-img" src="src/img/site/2.png" alt="Segundo passo">
+                    <p class="cadastro-passo-title">Preencha o formulário com número da conta e agência <strong>Sicoob
+                            Executivo.</strong></p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                    <img class="cadastro-passo-img" src="src/img/site/3.png" alt="Terceiro passo">
+                    <p class="cadastro-passo-title">Finalize clicando no botão <strong
+                            class="Text-Cadastro">cadastro</strong></p>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img class="aproveite-os-benefico-img" src="src/img/Prancheta-20.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br><br><br>
+    <!-- DOE-AGORA -->
+    <section name="doe-agora" id="doe-agora">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-sobre text-center">
+                    <img src="src/img/logo.png" alt="" width="150">
+                    <h1 class="p-5">Seja um <strong>Investidor do ISP</strong></h1>
+                    <p>Apóie os nossos projetos e nos ajude a aumentar nosso impacto</p>
+                    <button>Apóie Agora!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <!-- NOSSOS CONTATOS -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 justify-content-center mb-3">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="txt-name" placeholder="Nome" maxlength="14" />
+                        <label for="txt-name">Nome</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="txt-email" placeholder="email" maxlength="14" />
+                        <label for="txt-email">Digite cpf ou cnpj</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <label for="txt-mensagem">Sua mensagem</label>                        
+                        <textarea class="form-control" type="text" aria-label="Sua mensagem" style="height: 135px;"></textarea>
+                    </div>
+
+                    <button>Enviar</button>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center google-maps mb-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.669448689571!2d-48.24753872397311!3d-15.768616322322751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bc7fdfb076de9%3A0x9666ef4791ebda91!2sHefzib%C3%A1%20a%20Igreja%20na%20Cidade!5e0!3m2!1spt-BR!2sbr!4v1705688405624!5m2!1spt-BR!2sbr"
+                         height="271" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+
+                    <div class="mb-3">
+                        <a class="icons" target="_blank"><img
+                                src="./src/img/redes-sociais/endereco.png" />Avenida Águas Lindas
+                            de Goiás
+                        </a></div>
+                    <div class="mb-3">
+                        <a class="icons" href="https://www.facebook.com/SicoobExecutivoDF/" target="_blank"><img
+                                src="src/img/redes-sociais/what.png" /> (61) 9-9999-9999
+                        </a></div>
+                    <div> 
+                        <a class="icons" target="_blank"><img src="./src/img/redes-sociais/email.png" />igreja
+                            semparedes@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <!-- FOOTER -->
+    <hr class="separator" />
+    <footer class="pd-footer pt-3">
+        <div class="container d-flex justify-content-between align-items-center footer-responsivel">
+            <div>
+                <img src="./src/img/logo.png" width="100%" />
+            </div>
+            <div class="redes-sociais-div">
+                <div class="redes-sociais col-12 col-md-6 col-lg-6">
+                    <p class="redes-sociais-paragrafo">Siga nosssas<strong> Redes sociais:</strong>
+                        <a class="icons" href="https://www.instagram.com/sicoobexecutivo/" target="_blank"><img
+                                src="./src/img/redes-sociais/instagram.png" /></a>
+                        <a class="icons" href="https://www.facebook.com/SicoobExecutivoDF/" target="_blank"><img
+                                src="./src/img/redes-sociais/facebook.png" /></a>
+                    </p>
+                </div>
+                <div class="site col-12 col-md-6 col-lg-6">
+                    <p class="site-paragrafo">www.<strong>sicoobexecutivo</strong>.com.br</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

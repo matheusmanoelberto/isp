@@ -5,7 +5,7 @@
     align-self: flex-end;
 }
 
-.login {
+.doe {
     background: var(--color-red);
     color: var(--color-black);
     font-weight: 700;
@@ -13,13 +13,13 @@
     
 }
 
-#navbar-items .login {
+#navbar-items .doe {
     background: var(--color-blue);
-    color: var(--color-black);
+    color: var(--color-white);
     font-weight: 700;
     border-radius: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .label{

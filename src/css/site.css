@@ -74,7 +74,7 @@ main {
         margin-left: 5px;
     } 
 
-    #navbar-items .login{
+    #navbar-items .doe{
         width: 72px;
         text-align: center !important;
     }
@@ -104,14 +104,14 @@ main {
 }
 
 @media screen and (max-width: 700px) {
-    .main-login {
+    .main-doe {
         display: block !important;
         margin:0 auto;
         height: 100vh;
         max-width: 80%;
 
     }
-    .main__login {
+    .main__doe {
         
         max-width: 450px;
     }
@@ -151,14 +151,6 @@ main {
     width: 70%;
 }
 
-
-.Se-cadastre .cadastro-passo-img{
-    width: 100px;
-}
-
-.Se-cadastre .img-clube-beneficios img{
-    width: 100%;
-}
 .Se-cadastre .Text-Cadastro{    
     color: var(--color-black);
     font-weight: 700;
@@ -182,7 +174,7 @@ main {
     padding-right: 5px;
 }
 
-.main-login {
+.main-doe {
     height: 80hv !important;
 }
 

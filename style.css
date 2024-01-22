@@ -1,0 +1,23 @@
+body{
+    overflow: hidden;
+   display: flex;
+   align-items: center !important;
+   justify-content: center !important;
+   background-color: blue;
+}
+
+.inst{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    max-height: 300px;
+}
+
+.inst-img, .inst-video{
+    margin: 10px;
+    max-height: 300px;
+}
+
+.slick-list{
+    display: flex;
+}

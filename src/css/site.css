@@ -151,18 +151,6 @@ main {
     width: 70%;
 }
 
-.Se-cadastre .Text-Cadastro{    
-    color: var(--color-black);
-    font-weight: 700;
-    border: 1px solid;
-    border-radius: 7px;
-    border-color: var(--color-red);
-}
-.Se-cadastre p{
-    padding-top: 20px;
-    padding-left: 10px;
-}
-
 .aproveite-os-benefico-img{
     max-width: 640px;
 }
